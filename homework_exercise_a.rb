@@ -5,4 +5,7 @@ stops.push("Edinburgh Waverley")
 
 #task 2
 stops.unshift("Glasgow Queen Street")
+
+#task 3
+stops.insert(4, "Polmont")
 p stops
