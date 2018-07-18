@@ -56,3 +56,6 @@ users = {
 
 #task 1
 p users["Jonathan"][:twitter]
+
+#task 2
+p users["Erik"][:home_town]
