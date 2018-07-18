@@ -27,3 +27,8 @@ stops.fetch(2)
 
 #task 9
 stops.reverse()
+
+#task 10
+for list_of_stations in stops
+  p list_of_stations
+end
