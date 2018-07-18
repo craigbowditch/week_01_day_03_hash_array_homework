@@ -20,3 +20,7 @@ stops.delete_at(2)
 
 #task 7
 stops.count()
+
+#task 8
+stops[2]
+stops.fetch(2)
