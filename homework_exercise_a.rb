@@ -17,3 +17,6 @@ stops.delete("Livingston")
 
 #task 6
 stops.delete_at(2)
+
+#task 7
+stops.count()
