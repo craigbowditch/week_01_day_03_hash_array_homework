@@ -11,3 +11,7 @@ stops.insert(4, "Polmont")
 
 #task 4
 stops.index("Linlithgow")
+
+#task 5
+stops.delete("Livingston")
+p stops
