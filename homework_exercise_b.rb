@@ -65,3 +65,6 @@ p users["Erik"][:lottery_numbers]
 
 #task 4
 p users["Avril"][:pets][0][:species]
+
+#task 5
+p users["Erik"][:lottery_numbers].min
