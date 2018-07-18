@@ -68,3 +68,6 @@ p users["Avril"][:pets][0][:species]
 
 #task 5
 p users["Erik"][:lottery_numbers].min
+
+#task 6
+p users["Avril"][:lottery_numbers].select(&:even?)
