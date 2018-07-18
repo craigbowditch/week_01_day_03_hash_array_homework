@@ -14,4 +14,6 @@ stops.index("Linlithgow")
 
 #task 5
 stops.delete("Livingston")
-p stops
+
+#task 6
+stops.delete_at(2)
