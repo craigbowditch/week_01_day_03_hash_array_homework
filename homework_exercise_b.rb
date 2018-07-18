@@ -74,3 +74,6 @@ p users["Avril"][:lottery_numbers].select(&:even?)
 
 #task 7
 p users["Erik"][:lottery_numbers].push(7)
+
+#task 8
+users["Erik"][:home_town] = "Edinburgh"
