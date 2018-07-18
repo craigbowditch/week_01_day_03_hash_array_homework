@@ -24,3 +24,6 @@ stops.count()
 #task 8
 stops[2]
 stops.fetch(2)
+
+#task 9
+stops.reverse()
