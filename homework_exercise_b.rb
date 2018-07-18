@@ -80,3 +80,6 @@ users["Erik"][:home_town] = "Edinburgh"
 
 #task 9
 users["Erik"][:pets].push(:name => "Fluffy", :species => "dog")
+
+#task 10
+users["Colin"] = {}
