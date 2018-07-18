@@ -26,3 +26,9 @@ united_kingdom[3] = {name: "Northern Ireland", population: 1811000, capital: "Be
 for countries in united_kingdom
   p "#{countries[:name]}"
 end
+
+#task 4
+uk_population = 0
+for total_population in united_kingdom
+ uk_population += total_population[:population]
+end
