@@ -18,3 +18,6 @@ united_kingdom = [
 
 #task 1
 united_kingdom[1][:capital] = "Cardiff"
+
+#task 2
+united_kingdom[3] = {name: "Northern Ireland", population: 1811000, capital: "Belfast"}
