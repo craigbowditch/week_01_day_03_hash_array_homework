@@ -59,3 +59,6 @@ p users["Jonathan"][:twitter]
 
 #task 2
 p users["Erik"][:home_town]
+
+#task 3
+p users["Erik"][:lottery_numbers]
