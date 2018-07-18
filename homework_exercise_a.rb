@@ -8,4 +8,6 @@ stops.unshift("Glasgow Queen Street")
 
 #task 3
 stops.insert(4, "Polmont")
-p stops
+
+#task 4
+stops.index("Linlithgow")
