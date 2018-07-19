@@ -7,7 +7,7 @@ stops.push("Edinburgh Waverley")
 stops.unshift("Glasgow Queen Street")
 
 #task 3
-stops.insert(4, "Polmont")
+stops.insert(4, "Polmont") #stops.index("Linlithgow")
 
 #task 4
 stops.index("Linlithgow")
@@ -19,16 +19,16 @@ stops.delete("Livingston")
 stops.delete_at(2)
 
 #task 7
-stops.count()
+stops.count() #stops.length() stop.size()
 
 #task 8
 stops[2]
-stops.fetch(2)
+stops.fetch(2) #stops.at(2) stops_at(-5)
 
 #task 9
 stops.reverse()
 
 #task 10
-for list_of_stations in stops
-  p list_of_stations
+for stop in stops
+  p stop
 end

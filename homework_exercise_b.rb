@@ -67,10 +67,16 @@ p users["Erik"][:lottery_numbers]
 p users["Avril"][:pets][0][:species]
 
 #task 5
-p users["Erik"][:lottery_numbers].min
+p users["Erik"][:lottery_numbers].min()
 
 #task 6
 p users["Avril"][:lottery_numbers].select(&:even?)
+
+#even_numbers = []
+
+#for number in users["Avril"][:lottery_numbers]
+# even_numbers.push(number) if numbers.even?()
+# end
 
 #task 7
 p users["Erik"][:lottery_numbers].push(7)
@@ -79,7 +85,24 @@ p users["Erik"][:lottery_numbers].push(7)
 users["Erik"][:home_town] = "Edinburgh"
 
 #task 9
+#new_pet = {
+#   name: "Fluffy",
+#   species: "dog"
+#}
+#users["Erik"][:pets].push(new_pet)
 users["Erik"][:pets].push(:name => "Fluffy", :species => "dog")
 
 #task 10
+#new_person = {
+#  twitter: "codeclan",
+#    lottery_numbers: [1, 2, 9, 10, 14, 28],
+#    home_town: "Glasgow",
+#    pets: [
+#      {
+#        name: "Sooty",
+#        species: "Cat"
+#      }
+#    ]
+# }
+#users["Colin"] = new_person
 users["Colin"] = {}

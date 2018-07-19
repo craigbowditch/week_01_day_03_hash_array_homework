@@ -20,15 +20,24 @@ united_kingdom = [
 united_kingdom[1][:capital] = "Cardiff"
 
 #task 2
-united_kingdom[3] = {name: "Northern Ireland", population: 1811000, capital: "Belfast"}
+# united_kingdom[3] = {name: "Northern Ireland", population: 1811000, capital: "Belfast"}
+
+northern_ireland = {
+  name: "Northern Ireland",
+  population: 1811000,
+  capital: "Belfast"
+}
+
+united_kingdom.push(northern_ireland)
 
 #task 3
-for countries in united_kingdom
-  p "#{countries[:name]}"
+for country in united_kingdom
+  p country[:name]
 end
 
 #task 4
 uk_population = 0
-for total_population in united_kingdom
- uk_population += total_population[:population]
+for country in united_kingdom
+ uk_population += country[:population]
 end
+p uk_population
